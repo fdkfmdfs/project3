@@ -1,0 +1,6 @@
+body{background: black; width: 620px; margin: 20px auto; padding: 0;}
+.thumbs-wrap{display: flex;}
+.thumbs img{border: 1px solid blue; padding: 5px; margin-bottom: 3px;}
+.thumbs img:hover{border-color: green;}
+#largeImg{border: 1px solid #ccc; padding: 3.5px; height: 280px;}
+#largeImg img{display: block;}

@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0;}
+body{padding: 2em;}
+.tab-set{width: 610px; padding: 3em; border: 3px solid#666;}
+ul{list-style: none; padding: 12px 12px 2px 12px; display: flex;}
+ul li {margin-right: 1px;}
+ul li a{padding: 5px 20px; background: #ddd; color: black; border-radius: 4px 4px 0; text-decoration: none; }
+.panel{padding: 20px; background: blue;}
+ul li a.on{background: #fff; color: #333; cursor: pointer;}

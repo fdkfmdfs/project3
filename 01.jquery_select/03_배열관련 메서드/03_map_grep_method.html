@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>03.map 메서드 $.grep()</title>
+	<script type="text/javascript" src="js/lib/jquery-1.12.4.min.js"></script>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script type="text/javascript">
+		      $(function(){
+         let arr1 = [{"area": "서울", "name": "조사장"}, {"area": "부산", "name": "박사장"}, {"area": "광주", "name": "윤사장"}, {"area": "강릉", "name": "신사장"}]
+         let arr2 = $.map(arr1, function(a, b){
+            if(a.area == "서울"){
+               return a;
+            }
+         })
+         console.log("🚀 ~ file: 03_map_grep_method.html:16 ~ arr2 ~ arr2:", arr2)
+         let arr3 = $.grep(arr1, function(a, b){
+            if(a.area == "서울"){
+               return true;
+            }else{
+               return false;
+            }
+         })
+         console.log(arr3)
+      });
+      
+	</script>
+</head>
+<body>
+	<p>$.map()메서드는 배열에 저장된 데이터 수만큼 메서드를 반복 실행. 메서드에서 반환된 데이터는 새 배열에 저장되고 그 배열 객체를 반환</p>
+	<p>$.grep()메서드는 배열에 저장된 데이터 수만큼 메서드를 반복 실행하며 인덱스 오름차순으로 배열의 데이터를 불러옴 메서드의 반환값이 true이면 데이터가 새 배열에 저장되고 배열을 반환</p>
+</body>
+</html>

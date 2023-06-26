@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0;}
+#wrap{display: flex; }
+#wrap .banner{height: 400px; }
+#wrap .left-banner{flex-basis: 30%; background: url(../img/bn-tx4.jpg) no-repeat; background-size: cover;position: relative ;}
+#wrap .right-banner{flex-basis: 70%; background: url(../img/bn-tx7.jpg) no-repeat;background-size: cover;position: relative ;}
+#wrap .hover-opacity .x1{width: 100%; height: 50%; background: blue; position: absolute; top: 50%; left: 0;}
+#wrap .hover-opacity .x2{width: 100%; height: 50%; background: rgb(107, 107, 141); position: absolute; bottom: 50%; left: 0;}
+#wrap .hover-opacity .y1{width: 50%; height: 100%; position: absolute; top: 0; left: 50%; background: white;}
+#wrap .hover-opacity .y2{width: 50%; height: 100%; position: absolute; top: 0; right: 50%; background:white;}

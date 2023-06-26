@@ -1,0 +1,15 @@
+
+*{margin: 0; padding: 0;}
+body{width: 100%; height: 100%;}
+.poket{background: green;border: 1px solid green; width: 500px; height: 800px; margin: 0 auto; border: 5px solid plum; position: relative;}
+.poketdie{border: 4px solid orange; width: 530px; height: 800px; margin: 0 auto; position: absolute;bottom: 150px; left: 680px;}
+.ball1{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 680px;}
+.ball2{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 700px;left: 20px;}
+.ball3{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 720px; left: 50px;}
+.ball4{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 740px; left: 80px;}
+.ball5{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 740px; right: 20px;}.ball6{border-radius: 50%; border: 1px solid blue; width: 15px; height: 15px;background:blue; margin-left: 50%; position: relative; bottom: 7400px;}
+.ball7{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 760px;}
+.ball8{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 780px; left: 20px;}
+.ball9{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 790px;right: 20px;}
+.ball10{border-radius: 50%;  width: 15px; height: 15px;background:blue;  position: absolute; bottom: 790px;}
+.q{border: 5px solid goldenrod;width: 50px; height: 150px; position: absolute; bottom: 200px; left: 50%;}
